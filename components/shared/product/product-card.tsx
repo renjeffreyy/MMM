@@ -2,8 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import ProductPrice from "./product-price";
+import { Product } from "@/types";
 
-const ProductCard = ({ product, key }: { product: any; key: string }) => {
+const ProductCard = ({ product, key }: { product: Product; key: string }) => {
   return (
     <Card className="w-full max-w-sm" key={key}>
       <CardHeader className="p-0 items-center">

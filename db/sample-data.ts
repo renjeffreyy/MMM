@@ -33,7 +33,7 @@ const sampleData = {
       slug: "misu",
       category: "cats",
       description: "Misu the cat",
-      images: ["/misu.jpg"],
+      images: ["/images/misu.jpg"],
       price: 99.95,
       brand: "MMM",
       rating: 4.9,
