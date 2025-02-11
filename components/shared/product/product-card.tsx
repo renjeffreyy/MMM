@@ -4,9 +4,9 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import ProductPrice from "./product-price";
 import { Product } from "@/types";
 
-const ProductCard = ({ product, key }: { product: Product; key: string }) => {
+const ProductCard = ({ product }: { product: Product; key: string }) => {
   return (
-    <Card className="w-full max-w-sm" key={key}>
+    <Card className="w-full max-w-sm">
       <CardHeader className="p-0 items-center">
         <Link href={`/product/${product.slug}`}>
           <Image
